@@ -1,0 +1,61 @@
+.head h3 {
+  position: absolute;
+  top: 235vh;
+  left: 35vw;
+  font-size: 3rem;
+}
+
+.content {
+  position: relative;
+  top: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+  .courses {
+    .count {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .countData {
+      font-size: 1rem;
+      font-weight: bold;
+      position: relative;
+      right: 30px;
+    }
+  }
+  .Acadmices {
+    .count {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .countData {
+      font-size: 1rem;
+      font-weight: bold;
+      position: relative;
+      right: 25px;
+    }
+  }
+  .enrolled {
+    .count {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .countData {
+      font-size: 1rem;
+      font-weight: bold;
+      position: relative;
+      right: 25px;
+    }
+  }
+  .satified {
+    .count {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .countData {
+      font-size: 1rem;
+      font-weight: bold;
+      position: relative;
+      right: 25px;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.headerSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 213, 255);
+  height: 20vh;
+  .headerDiv {
+    width: 10%;
+    position: relative;
+    top: 4vh;
+    left: 3vw;
+    img {
+      width: 105%;
+      height: 70%;
+    }
+  }
+  .headerContent {
+    width: 40%;
+    h2 {
+      position: absolute;
+      right: 39vw;
+      font-size: 3.5rem;
+      top: 4vh;
+    }
+    h3 {
+      position: relative;
+      top: 14vh;
+      left: 24vw;
+      font-size: 1rem;
+    }
+  }
+
+  .headerDetails {
+    width: 30%;
+    .callInfo,
+    .mailInfo {
+      display: flex;
+      .mailIcon {
+        position: absolute;
+        top: 3.5vh;
+        .icon {
+          font-size: 2rem;
+        }
+      }
+      .callIcon {
+        position: absolute;
+        top: 11vh;
+        .icon {
+          font-size: 2rem;
+        }
+      }
+      .mailId {
+        position: relative;
+        left: 3vw;
+        top: 15px;
+        font-size: 1.5rem;
+      }
+      .callNumber {
+        position: relative;
+        left: 3vw;
+        top: 8px;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

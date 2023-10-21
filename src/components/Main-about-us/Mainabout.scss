@@ -1,0 +1,33 @@
+.headline {
+  h3 {
+    text-align: center;
+    position: absolute;
+    top: 90vh;
+    left: 40vw;
+    font-size: 3rem;
+  }
+}
+.sections {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 105vh;
+  left: 5vw;
+  .leftSection {
+    width: 50%;
+    video {
+      // margin: 4vw;
+      width: 80%;
+    }
+  }
+  .rightSection {
+    width: 40%;
+    text-align: justify;
+    h3 {
+      color: rgb(0, 213, 255);
+    }
+    p {
+      font-size: 1.3rem;
+    }
+  }
+}

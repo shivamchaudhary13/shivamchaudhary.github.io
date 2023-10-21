@@ -1,0 +1,22 @@
+.team{
+    position: relative;
+    top: 105vh;
+    h3{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .teamMembers{
+        display: flex;
+        justify-content: space-evenly;
+        img{
+            border-radius: 40%;
+            width: 12vw;
+        }
+        p{
+            margin-left: 4vw;
+        }
+        span{
+            margin-left: 2vw;
+        }
+    }
+}

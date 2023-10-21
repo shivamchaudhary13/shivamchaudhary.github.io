@@ -1,0 +1,19 @@
+.CourseHeader{
+    position: relative;
+    top: 95vh;
+    text-align: center;
+    h3{
+        font-size: 3rem;
+    }
+}
+
+.courseList{
+    position: relative;
+    top: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img{
+    height: 50vh;
+}
